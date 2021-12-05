@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500&display=swap');
+
+body {
+	font-family: 'Montserrat', sans-serif;
+}
+
+.h1, h1 {
+    font-size: 2rem;
+	font-weight: 600;
+}
+
+.text-300 {
+    font-weight: 300;
+}
+
+/* HEADER SECTION */
+header {
+	padding-top: 1rem;
+	padding-bottom: 1rem;
+}
+nav.navbar ul.navbar-nav li {
+	margin-left: 2rem;
+}
+nav.navbar ul.navbar-nav li a {
+	position: relative;
+	padding: 0 !important;
+}
+.navbar-light .navbar-nav .nav-link {
+    color: rgba(0,0,0,.95);
+}
+.navbar-light .navbar-nav .nav-link:hover {
+    color: rgba(0,0,0,1);
+}
+nav.navbar ul.navbar-nav li a::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    height: 8px;
+    width: 25%;
+    background-color: #fcf113;
+    visibility: hidden;
+    opacity: 0;
+    -webkit-transition: all .3s;
+    transition: all .3s;
+}
+nav.navbar ul.navbar-nav li a:hover::after {
+    width: 100%;
+    background-color: #fcf113;
+    color: #fcf113;
+    visibility: visible;
+    opacity: 1;
+    margin-bottom: 0;
+    z-index: -1;
+}
+
+/* BIO SECTION */
+.bio-section {
+	margin-top: 6rem;
+	margin-bottom: 6rem;
+}
+.my-img {
+	border-radius: 50%;
+	border: solid 3px #fcf113;
+	filter: grayscale(100%);
+}
+.my-img:hover {
+	filter: grayscale(0%);
+}
+
+/* LATEST PROJECTS */
+.card_one {
+	background-image: linear-gradient(to right, #66abe7, #99cbf9);
+}
+.card_two {
+	background-image: linear-gradient(to right, #ffdf95, #ffe993);
+}
+.card_three {
+	background-image: linear-gradient(to right, #73d6bb, #a0e8d1);
+}
+
+/* FOOTER SECTION */
+footer {
+	margin-top: 6rem;
+	margin-bottom: 8rem;
+}
+
+.icon-footer {
+	width: 1.75rem;
+}
+
+.social_links img {
+	transform: scale(1);
+	-webkit-transform: scale(1);
+	transition: transform 450ms ease, -webkit-transform 450ms ease;
+}
+.social_links:hover img {
+	transform: scale(1.1);
+	-webkit-transform: scale(1.1);
+}
+
+/* Banner Section */
+section.banner-section-crocs {
+	background-image: linear-gradient(to right, #73d6bb, #a0e8d1);
+	padding-top: 3rem;
+	padding-bottom: 1px;
+}
+
+/* section {
+	padding: 3.5rem 0;
+} */
+
+.light-green-bg {
+    background-color: #eafffa;
+	padding: 3.5rem 0;
+}
+
+.white-bg {
+    background-color: #ffffff;
+	padding: 3.5rem 0;
+}
+
+p {
+	line-height: 1.8rem;
+}
