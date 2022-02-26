@@ -105,13 +105,23 @@ section.banner-section-crocs {
 	padding-top: 3rem;
 	padding-bottom: 1px;
 }
+section.banner-section-orange {
+	background-image: linear-gradient(to bottom, #F2500A, #FF9311);
+	padding-top: 3rem;
+	padding-bottom: 1px;
+}
 
 /* section {
 	padding: 3.5rem 0;
 } */
 
 .light-green-bg {
-    background-color: #eafffa;
+  background-color: #eafffa;
+	padding: 3.5rem 0;
+}
+
+.light-orange-bg {
+  background-color: #FFEED9;
 	padding: 3.5rem 0;
 }
 
