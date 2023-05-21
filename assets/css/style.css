@@ -70,7 +70,7 @@ nav.navbar ul.navbar-nav li a:hover::after {
 
 /* LATEST PROJECTS */
 .card_one {
-	background-image: linear-gradient(to right, #66abe7, #99cbf9);
+	background-image: linear-gradient(to right, #ededed, #ededed);
 }
 .card_two {
 	background-image: linear-gradient(to right, #ffdf95, #ffe993);
