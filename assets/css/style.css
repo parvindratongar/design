@@ -101,9 +101,9 @@ footer {
 
 /* Banner Section */
 section.banner-section-crocs {
-	background-image: linear-gradient(to right, #73d6bb, #a0e8d1);
+	background-image: linear-gradient(to right, #ff3333, #ff3333);
 	padding-top: 3rem;
-	padding-bottom: 1px;
+	/* padding-bottom: 1px; */
 }
 section.banner-section-orange {
 	background-image: linear-gradient(to bottom, #F2500A, #FF9311);
