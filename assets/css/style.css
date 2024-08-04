@@ -109,6 +109,11 @@ section.banner-section-crocs {
 	padding-top: 3rem;
 	/* padding-bottom: 1px; */
 }
+section.banner-section-blue {
+	background-image: linear-gradient(to right, #0551C2, #0551C2);
+	padding-top: 3rem;
+	/* padding-bottom: 1px; */
+}
 section.banner-section-orange {
 	background-image: linear-gradient(to bottom, #F2500A, #FF9311);
 	padding-top: 3rem;
@@ -136,4 +141,8 @@ section.banner-section-orange {
 
 p {
 	line-height: 1.8rem;
+}
+
+.rounded {
+	border-radius: 7px !important;
 }
